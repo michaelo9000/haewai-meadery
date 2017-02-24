@@ -1,0 +1,252 @@
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>Haewai | Our Products</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+		<link rel="shortcut icon" type="image/png" href="faviconbrown.png"/>
+		<script type="text/javascript" src="onload.js"></script>
+		<script type="text/javascript" src="display.js"></script>
+		<script type="text/javascript" src="order.js"></script>
+		<meta name="viewport" content="user-scalable=no">
+	</head>
+	<body>
+		<div id="cover"></div>
+		<div id="content">
+			<div id="productDisplay">
+				<img id="displayLeft" src="images/labelsflowers/label left.png"/>
+				<img id="displayRight" src="images/labelsflowers/label right.png"/>
+				<div id="displayDivider">
+				<h1 id="displayHeader">Which mead would you like?</h1>
+				<h2 class="italic" id="displaySub"></h2>
+				<p id="displayPara">Click on any of the varieties below to see more detail about them.</p>
+				<p><a target="_blank"class="bold" id="displayLink" href=""></a></p>
+				<div id="displayDetailBox">
+				<a class="orderLink" id="displayOrderLink" onclick="orderToggle();"></a>
+				<p id="displayDetail"></p>
+				</div>
+				</div>
+			</div>
+		<div class="productsFloat">
+			<div class="product" id="tawari" onclick="display(this.id)">
+				<img src="images/labelsflowers/Label Cottage.png"/>
+				<h1>Tawari Cottage Garden Herbs**</h1>
+				<h2><span class="italic">2001, Off-Dry</span></h2>
+				<div class="detail">
+				<a class="orderLink" onclick="orderToggle();">Order Now</a>
+				<p>Price: 16/375 ml | 14% abv</p>
+				</div>
+			</div>
+			<div class="product" id="kamahi" onclick="display(this.id)">
+				<img src="images/labelsflowers/Label Cottage.png"/>
+				<h1>Kamahi Cottage Garden Herbs**</h1>
+				<h2><span class="italic">2001, Medium</span></h2>
+				<div class="detail">
+				<a class="orderLink" onclick="orderToggle();">Order Now</a>
+				<p>Price: 16/375 ml | 14% abv</p>
+				</div>
+			</div>
+			<div class="product" id="pohutukawa" onclick="display(this.id)">
+				<img src="images/labelsflowers/Label Cottage.png"/>
+				<h1>Pohutukawa Cottage Garden Herbs</h1>
+				<h2><span class="italic">2003, Sweet</span></h2>
+				<div class="detail">
+				<a class="orderLink" onclick="orderToggle();">Order Now</a>
+				<p>Price: 15/375 ml | 14% abv</p>
+				</div>
+			</div>
+			<div class="product" id="pohutukawa" onclick="display(this.id)">
+				<img src="images/labelsflowers/Label Cottage.png"/>
+				<h1>Pohutukawa Cottage Garden Herbs</h1>
+				<h2><span class="italic">2001, Off-Dry</span></h2>
+				<div class="detail">
+				<a class="orderLink" onclick="orderToggle();">Order Now</a>
+				<p>Price: 15/375 ml | 14% abv</p>
+				</div>
+			</div>
+			<div class="product">
+				<p>** Bio-Gro IFOAM Certified Organic Honey and Product Certification<br/>
+				* Bio-Gro IFOAM Certified Organic Honey</p>
+			</div>
+		</div>
+		<div class="productsFloat">
+			<div class="product" id="pohutukawaSparkling" onclick="display(this.id)">
+				<img src="images/labelsflowers/Label Festive.png"/>
+				<h1>Pohutukawa Festive Sparkling</h1>
+				<h2><span class="italic">2000, Off-Dry</span></h2>
+				<div class="detail">
+				<a class="orderLink" onclick="orderToggle();">Order Now</a>
+				<p>Price: 15/375 ml | 13% abv</p>
+				</div>
+			</div>
+			<div class="product" id="niue" onclick="display(this.id)">
+				<img src="images/labelsflowers/Label Honey.png"/>
+				<h1>Niue Island Honey Mead*</h1>
+				<h2><span class="italic">2004, Sweet</span></h2>
+				<div class="detail">
+				<a class="orderLink" onclick="orderToggle();">Order Now</a>
+				<p>Price: 19/375 ml | 14% abv</p>
+				</div>
+			</div>
+			<div class="product" id="fennel" onclick="display(this.id)">
+				<img src="images/labelsflowers/Label Fennel.png"/>
+				<h1>Fennel Summer Aphrodisia</h1>
+				<h2><span class="italic">2004, Medium</span></h2>
+				<div class="detail">
+				<a class="orderLink" onclick="orderToggle();">Order Now</a>
+				<p>Price: 15/375 ml | 14% abv</p>
+				</div>
+			</div>
+			<div class="product">
+				<h1>Our Stockists</h1>
+				<p>We often receive orders from retailers around the country, however it is hard to give a definitive answer of where our mead will be at any given time. If you'd like to find a local source, just send us an email and we'll let you know who is likely to be stocking Haewai mead at the moment.</p>
+			</div>
+		</div>
+		<div style="width:100%;float:left;"></div>
+			<div id="contactBox">
+				<div class="contact">
+					<p class="contactHeader">Email</p>
+					<p>
+					<a href="mailto:order@haewai.co.nz">order@haewai.co.nz</a><br/>
+					<a href="mailto:coral@haewai.co.nz">coral@haewai.co.nz</a><br/>
+					<a href="mailto:jacob@haewai.co.nz" >jacob@haewai.co.nz</a><br/>
+					<a href="mailto:info@haewai.co.nz">info@haewai.co.nz</a>
+					</p>
+				</div>
+				<div class="contact">
+					<p class="contactHeader">Order</p>
+					<p>
+					<a href="tel:+6443879541">Tel: 04 3879541</a><br/>
+					<a href="tel:+64274282119">Mob: 0274282119</a><br/>
+					<a href="pdf/order.pdf" target="_blank">Order Form .pdf</a><br/>
+					<a href="products.html?1">Order Online</a>
+					</p>
+				</div>
+				<div class="contact">
+					<p class="contactHeader">Opening Hours</p>
+					<p>Wed - Fri: 12.30pm - 7.30pm<br/>
+					Saturday: 11.00am - 6.00pm<br/>
+					<span class="italic"><b>but,</b></span> for other times, email us.<br/>
+					We will be able to arrange it.
+					</p>
+				</div>
+				<div class="contact">
+					<p class="contactHeader">Address</p>
+					<p>Wind Gardens<br/>
+					236 Houghton Bay Rd<br/>
+					Wellington 6023<br/>
+					New Zealand<br/>
+					</p>
+				</div>
+			</div>
+		</div>
+		<form target="_blank" id="orderForm" method="POST" action="http://formspree.io/order@haewai.co.nz">
+			<div id="toggle" onclick="orderToggle();">Order</div>
+			<div id="order">
+				<div class="orderRow">
+					<p class="meadLabel">Tawari Cottage Garden Herbs (2001, Off-Dry)</p>
+					<select class="meadQuan" name="Tawari 2001">
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="orderRow">
+					<p class="meadLabel" >Kamahi Cottage Garden Herbs (2001, Medium)</p>
+					<select class="meadQuan" name="Kamahi 2001">
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="orderRow">
+					<p class="meadLabel"  >Pohutukawa Cottage Garden Herbs (2003, Sweet)</p>
+					<select class="meadQuan" name="Pohutukawa 2003">
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="orderRow">
+					<p class="meadLabel" > Pohutukawa Cottage Garden Herbs (2001, Off-Dry) </p>
+					<select class="meadQuan" name="Pohutukawa 2001">
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="orderRow">
+					<p class="meadLabel" > Fennel Summer Aphrodisia (2004, Medium)</p>
+					<select class="meadQuan" name="Fennel 2004">
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="orderRow">
+					<p class="meadLabel" >Niue Island Honey Mead (2004, Sweet)</p>
+					<select class="meadQuan" name="Niue 2004">
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="orderRow">
+					<p class="meadLabel" >Pohutukawa Festive Sarkling (2000, Off-Dry)</p>
+					<select class="meadQuan" name="Pohutukawa 2000">
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+			</div>
+			<div id="orderRight">
+				<div class="addLeft">
+					<p class="orderText">Shipping Address:</p>
+					<textarea placeholder="Where should we send your order?"name="Shipping Address" required="required"></textarea>
+				</div>
+				<div class="addRight">
+					<p class="orderText">Billing Address:</p>
+					<textarea placeholder="If different from shipping."name="Billing Address"></textarea>
+				</div>
+				<div class="addLeft">
+					<p class="orderText">Your name:</p>
+					<textarea placeholder="Let us know who we're talking to."id="orderName" name="Name" required="required"></textarea>
+				</div>
+				<div class="addRight">
+					<p class="orderText">Your email:</p>
+					<textarea placeholder="We need this to email you back."type="email" id="orderEmail" name="Email Address"required="required"></textarea>
+				</div>
+				<div class="addLeft">
+					<p class="orderText">Your phone number:</p>
+					<textarea placeholder="Your main contact phone." id="orderPhone" name="Phone Number"required="required"></textarea>
+				</div>
+				<div class="addRight">
+					<div id="buttonRow">
+						<button id="sendButton" onclick="">Send Order</button>
+					</div>
+				</div>
+				<p id="paymentReq">Payment must be made prior to delivery.</p>
+					
+			</div>
+		</form>
+		<div id="menu">
+			<p id="menuHeader"></p>
+			<ul id="menuList">
+				<a href="index.html?1"><li>Home/Contact</li></a>
+				<hr class="menuLine"/>
+				<a href="products.html?1"><li>Our Products</li></a>
+				<hr class="menuLine"/>
+				<a href="about.html?1"><li>About Haewai</li></a>
+				<hr class="menuLine"/>
+				<a href="mead.html?1"><li>About Mead</li></a>
+			</ul>
+		</div>
+	</body>
+</html>

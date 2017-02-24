@@ -1,0 +1,490 @@
+/*General*/
+body	 {
+	font-family:'century gothic', 'verdana', 'helvetica';
+	width:100%;
+	padding:0;
+	background-color:#fbca32;
+}
+p{
+	line-height:1.5;
+	font-size:165%;
+}
+.orderLink {
+	font-size:165%;
+}
+h1 {
+	font-size:250%;
+}
+h2{
+	font-size:200%;
+}
+.meadLabel {
+	font-size:150%;
+}
+a:link {
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a:visited {
+	color:white;
+}
+.italic {
+	font-style:italic;
+}
+.center{
+	text-align:center;
+}
+#cover{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:white;
+	z-index:10;
+}
+#content{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:#fbca32;
+	color:#ffffff;
+}
+#banner{
+	background-image:url('images/.png');
+	width:129.5%;
+	height:150px;
+	position:relative;
+	right:15%;
+}
+/*index*/
+.homeContent, #contactBox{
+	background-color:#874400;
+	padding:1px 3%;
+	margin:3% 1.5%;
+	box-shadow:0px 0px 20px 2px black inset;
+	text-align:justify;
+	font-size:100%;
+}
+#homeHeader{
+	font-weight:normal;
+	text-align:center;
+	font-family:'castellar', 'verdana', 'helvetica';
+	margin:2% 0 0 0;
+	padding:0;
+}
+#homeHeader + p {
+	font-style:italic;
+	text-align:center;
+}
+#box{
+	padding: 1px 3%;
+	background-color:#874400;
+	box-shadow:0px 0px 20px 2px black inset;
+	margin:0 1.5%;
+}
+#box .homeContent{
+	box-shadow:none;
+	padding:0;
+	margin:3% 0;
+}
+#map{
+	padding:0;
+	width:100%;
+	height:400px;
+	display:block;
+}
+#fbBox {
+	text-align:center;
+}
+#contactBox{
+	height:100%;
+	overflow:hidden;
+	text-align:center;
+	margin-bottom:0;
+	font-size:100%;
+}
+.contact{
+	margin:2% 3%;
+	width:44%;
+	float:left;
+	font-size:100%;
+}
+.contactHeader{
+	border-bottom:1px solid white;
+	width:100%;
+	margin-top:-2%;
+}
+/*products*/
+.product, #productDisplay {
+	background-color:#874400;
+	box-shadow:0px 0px 20px 2px black inset;
+	overflow:hidden;
+	font-size:100%;
+}
+#productDisplay{
+	padding:2%;
+	margin:24px 1.5% 0 1.5%;
+	text-align:center;
+}
+#displayLeft{
+	width:25%;
+	float:left;
+	margin-right:2%;
+}
+#displayRight{
+	width:25%;
+	float:right;
+	margin-left:2%;
+}
+#displayHeader, #displaySub{
+	margin:0;
+	padding:1% 0;
+	font-weight:normal;
+}
+#displayPara {
+	margin:0;
+	padding:0;
+	text-align:justify;
+}
+.productsFloat{
+	float:left;
+	width:50%;
+	font-size:100%;
+}
+.product {
+	padding:4%;
+	margin:24px 3%;
+}
+#tawari:hover,#kamahi:hover, #fennel:hover, #pohutukawa:hover, #pohutukawaSparkling:hover, #niue:hover, #comingSoon:hover{
+	box-shadow:0px 0px 0px 0px black inset;
+	cursor:pointer;
+}
+.product h1, .product h2 {
+	margin-top:0;
+	margin-bottom:2%;
+	padding:0;
+	font-weight:normal;
+	text-align:left;
+}
+.product p {
+	margin:0;
+	padding:0;
+	text-align:justify;
+}
+.detail, #displayDetailBox{
+	margin:2% 0 0 0;
+	padding:2% 0 0 0;
+	border-top:1px solid white;
+	width:100%;
+	float:left;
+	font-size:100%;
+}
+.detail p, #displayDetail{
+	float:right;
+	margin:0;
+	padding:0;
+}
+.detail a , #displayOrderLink{
+	float:left;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	cursor:pointer;
+}
+.product img{
+	float:left;
+	width:35%;
+	margin-right:5%;
+}
+/*Order Form*/
+#orderForm {
+	color:white;
+	z-index:4;
+	position:fixed;
+	left:0;
+	top:100%;
+	width:100%;
+	height:65%;
+	background-color:#fbca32;
+	box-shadow:0px -5px 30px 2px black;
+	color:black;
+}
+#toggle {
+	position:relative;
+	z-index:1;
+	float:right;
+	bottom:90px;
+	text-align:center;
+	font-size:300%;
+	background-color:#874400;
+	padding: 15px 5%;
+	box-shadow:-5px -5px 20px 1px black;
+	cursor:pointer;
+	color:white;
+}
+#order, #orderRight {
+	position:relative;
+	width:45%;
+	float:left;
+}
+#orderRight{
+	top:-90px;
+	float:right;
+	margin-right:3%;
+	margin-top:24px;
+}
+.addLeft, .addRight{
+	width:49%;
+	float:left;
+}
+.addRight{
+	float:right;
+}
+.orderRow {
+	width:100%;
+	padding:24px 6%;
+}
+#buttonRow{
+	width:100%;
+	margin-top:24px;
+}
+#sendButton{
+	float:left;
+	margin: 0 10%;
+	width:80%;
+	height:50px;
+	font-size:150%;
+	font-family:'century gothic', 'verdana', 'helvetica';
+}
+textarea{
+	width:100%;
+	font-size:125%;
+	height:100px;
+	font-family:'century gothic', 'verdana', 'helvetica';
+}
+#orderName,#orderEmail,#orderPhone{
+	height:50px;
+}
+#paymentReq{
+	width:100%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+.orderText{
+	line-height:1;
+	margin:0 0 3% 0;
+	padding:0;
+}
+.meadLabel {
+	width:88%;
+	float:left;
+	line-height:1;
+	margin:0;
+	padding:0;
+}
+.meadQuan {
+	width:10%;
+	float:right;
+	font-size:120%;
+}
+/*About*/
+#about div{
+	background-color:#874400;
+	padding:0;
+	margin:3% 1.5%;
+	box-shadow:0px 0px 20px 2px black inset;
+	overflow:hidden;
+	text-align:justify;
+}
+#about img {
+	width:25%;
+	box-shadow:0px 0px 20px 2px black;
+}
+#about p {
+	margin:3%;
+	padding:0;
+	margin-top:0;
+}
+#about h1 {
+	margin:3%;
+	padding:0;
+	margin-bottom:1%;
+	font-weight:normal;
+}
+.bold{
+	font-weight:600;
+	padding:1% 0;
+}
+.aboutLeft h1{
+	text-align:left;
+}
+.aboutRight h1{
+	text-align:right;
+}
+.aboutLeft img {
+	float:right;
+	margin-left:3%;
+}
+.aboutRight img {
+	float:left;
+	margin-right:3%;
+}
+.aboutLink {
+	font-weight:bold;
+	text-decoration:underline;
+}
+/*What is Mead*/
+#meaderyDiv {
+	background-color:#874400;
+	padding:0;
+	margin:3% 1.5%;
+	box-shadow:0px 0px 20px 2px black inset;
+	overflow:hidden;
+	text-align:justify;
+}
+#meaderyDiv p{
+	margin:2% 3%;
+}
+.homeContent h1 {
+	font-weight:normal;
+	text-align:center;
+}
+#meaderyImage{
+	float:left;
+	margin-left:-3%;
+	margin-right:3%;
+	width:30%;
+	box-shadow:0px 0px 20px 2px black;
+}
+/*Desktop Navigation Bar*/
+#navbarContainer {
+	z-index:2;
+	width:99%;
+	background-color: #435f2d;
+	position:fixed;
+	top:0;
+	left:0;
+	padding-left:3%;
+	box-shadow:0px 0px 30px 2px black;
+}
+#navBox1,#navBox2,#navBox3,#navBox4{
+	width:21.5%;
+	padding:1%;
+	background-color:#435f2d;
+	font-size: 20px;
+	transition-duration:.2s;
+	float:left;
+	text-align:center;
+}
+#navBox1:hover,#navBox2:hover,#navBox3:hover,#navBox4:hover {
+	background-color:#aaf455;
+}
+/*Mobile Navigation Bar*/
+#mNav {
+	z-index:1;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding:0;
+	margin:0;
+	border:none;
+	background-color:#435f2d;
+	height:200px;
+	box-shadow: 20px 5px 40px 2px black;
+}
+hr {
+	border:none;
+	height:24px;
+	width:94px;
+	border-radius:25%;
+	margin:28px 0;
+	background-color:#874400;
+}
+#mNavButton{
+	position:fixed;
+	top:0;
+	left:0;
+	padding:0 47px;
+	background-color:#fbca32;
+	height:180px;
+	border-radius:10%;
+	border:10px #874400 outset;
+}
+#mNavButton:active{
+	background-color:#fbca32;
+}
+#mNavHeader{
+	width:60%;
+	height:200px;
+	float:right;
+}
+#menu{
+	z-index:-3;
+	position:fixed;
+	left:-58%;
+	top:0;
+	width:58%;
+	height:150%;
+	background-color:#585858;
+	font-size:400%;
+	padding-left:2%;
+	box-shadow: 5px 5px 40px 2px black;
+}
+#menuList{
+	list-style-type:none;
+	color:white;
+}
+.menuLine{
+	background-color:white;
+	height:8px;
+	width:85%;
+}
+/*Age Confirmation Pop Up*/
+#popUpBackground{
+	background-color:black;
+	opacity:.5;
+	width:100%;
+	height:100%;
+	z-index:3;
+	position:fixed;
+	top:0;
+	left:0;
+}
+#popUp{
+	position:fixed;
+	top:2.5%;
+	z-index:4;
+	height:98%;
+	box-shadow: 0px 30px 30px 5px black;
+}
+#popUpText{
+	position:fixed;
+	z-index:5;
+	padding:0% 2%;
+	text-align:center;
+}
+.popUpButton{
+	margin:0% 5%;
+	padding:1% 5%;
+	background-color:#fbca32;
+	border:none;
+	color:#874400;
+	font-size:150%;
+	cursor:pointer;
+}
+.popup{
+	color:#fbca32;
+	font-size:150%;
+	font-weight:400;
+	margin:4% 0;
+}
+#popupHeader{
+	font-size:250%;
+	font-family:'castellar', 'verdana', 'helvetica';
+}
